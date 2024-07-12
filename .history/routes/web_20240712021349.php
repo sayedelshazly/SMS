@@ -23,3 +23,9 @@ Route::group(
             return view('dashboard');
         });
     });
+
+Route::group(['prefix' => LaravelLocalization::setLocale()], function()
+{
+	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+	
+});
