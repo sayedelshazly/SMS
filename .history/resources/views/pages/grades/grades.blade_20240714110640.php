@@ -62,7 +62,7 @@
                                         <td>{{ $grade->Name }}</td>
                                         <td>{{ $grade->Notes }}</td>
                                         <td>
-                                            <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                                            <button class="btn btn-danger btn-sm" type="button" data-toggle="modal"
                                                 data-target="#exampleModalEdit{{$grade->id}}">
                                                 <i class="bi bi-pencil-square"></i>
                                             </button>

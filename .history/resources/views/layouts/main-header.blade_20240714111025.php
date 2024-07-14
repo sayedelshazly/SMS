@@ -27,9 +27,9 @@
     <ul class="nav navbar-nav ml-auto">
 
         <div class="btn-group">
-            <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                <span class="visually-hidden"><i class="bi bi-translate"></i></span>
+                <span class="visually-hidden">Language <i class="bi bi-globe"></i></span>
             </button>
             <ul class="dropdown-menu">
                 <li>

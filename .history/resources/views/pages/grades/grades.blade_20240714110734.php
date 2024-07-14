@@ -64,7 +64,7 @@
                                         <td>
                                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
                                                 data-target="#exampleModalEdit{{$grade->id}}">
-                                                <i class="bi bi-pencil-square"></i>
+                                                <i class="fs-2 bi bi-pencil-square"></i>
                                             </button>
                                             <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
                                                 data-target="#delete{{ $grade->id }}"
